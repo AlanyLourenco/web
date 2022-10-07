@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: rgb(40, 117, 91);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse sitr em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:700px )" srcset="midia/P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="midia/M.png" type="image/png">
+        <img src="midia/G.png" alt="Imagem flexível">
+    </picture>
+
+    <p><a href="index.html" rel="prev">Voltar para a primeira Página</a></p>
+
+    <a href="vid01.html"> <img src="midia/A.png" alt=""> </a>
+    <a href="vid02.html"> <img src="midia/B.png" alt=""> </a> <br>
+    <a href="vid03.html"> <img src="midia/C.png" alt=""> </a>
+    <a href="vid04.html"> <img src="midia/D.png" alt=""> </a>
+    
+</body>
+</html>
